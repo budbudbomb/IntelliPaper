@@ -1,0 +1,10 @@
+import React from 'react';
+
+// Modal + Form
+export default function Create() {
+  return (
+    <div>
+      <h1>Create</h1>
+    </div>
+  );
+}
