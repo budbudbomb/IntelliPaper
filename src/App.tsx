@@ -1614,11 +1614,11 @@ export default function App() {
         className={`bg-slate-900 text-slate-300 flex flex-col shrink-0 transition-all duration-300 ease-in-out ${isSidebarCollapsed ? "w-20" : "w-64"}`}
       >
         <div
-          className={`h-16 flex items-center border-b border-slate-800 overflow-hidden ${isSidebarCollapsed ? "justify-center" : "px-6"}`}
+          className={`h-20 flex items-center border-b border-slate-800 overflow-hidden ${isSidebarCollapsed ? "justify-center" : "px-6"}`}
         >
           <BookOpen className="text-blue-500 shrink-0" size={24} />
           {!isSidebarCollapsed && (
-            <h1 className="text-lg font-bold text-white tracking-wide ml-3 whitespace-nowrap">
+            <h1 className="text-[15px] font-bold text-white tracking-wide ml-3 leading-tight">
               Talent Development Program
             </h1>
           )}
