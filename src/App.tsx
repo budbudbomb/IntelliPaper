@@ -1619,7 +1619,7 @@ export default function App() {
           <BookOpen className="text-blue-500 shrink-0" size={24} />
           {!isSidebarCollapsed && (
             <h1 className="text-lg font-bold text-white tracking-wide ml-3 whitespace-nowrap">
-              Exam Manager
+              Talent Development Program
             </h1>
           )}
         </div>
